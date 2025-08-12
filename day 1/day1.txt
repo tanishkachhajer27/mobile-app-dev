@@ -1,0 +1,22 @@
+program1 :
+  void main() 
+{
+ String str='coding is';
+  String str1='fun';
+  bool val=(str==str1);
+    print(val);
+}
+
+program2:
+void main() 
+{
+  List marks=[20,22,30,40,43];
+  print(marks[3]);
+  print("$marks");
+  marks.add(42);
+  print("after adding 42:$marks");
+  marks.remove(20);
+  print("after removing 20:$marks");
+  int length=marks.length;
+  print("length of the list:$length");
+}
